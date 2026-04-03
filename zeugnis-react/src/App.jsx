@@ -96,13 +96,21 @@ function App() {
           <div className="hero-pronunciation">[tsoyg-nis] — testimony, witness</div>
           <h1>Where there is<br />courage, there is <em>a story</em></h1>
           <p className="hero-sub">
-            Behind every border, behind every closed door, ordinary people do extraordinary things —
-            parents who walk through darkness so their children can reach the light, families who hold
-            together when the world tries to tear them apart, strangers who risk everything to help
-            someone they have never met. These are the stories we animate: tales of perseverance,
-            of love that refuses to surrender, of the human will to survive and to hope.
-            Named for the German <em>Zeugnis</em> (testimony) and the 38th parallel that divides Korea,
-            our studio ensures that no act of courage goes unrecorded.
+            Our name comes from the <em>Gesellschaft für Menschenrechte</em> (GfM), 
+            the West German human rights organization that spent decades meticulously documenting 
+            the testimonies of East German defectors — building an archive that would one day 
+            serve as evidence in courts of law. <em>Zeugnis</em>, their word for testimony and witness. 
+            <em>38</em>, the parallel that divides Korea and marks where our founding stories begin.
+          </p>
+          <p className="hero-sub">
+            Inspired by that legacy, Prof. Leland Yi conceived a remarkable idea: what if animation — 
+            a medium more approachable than documentary, more expressive than text, and uniquely able 
+            to protect the identities of those whose families remain in danger — could carry these 
+            stories to a global audience? Many North Korean refugees cannot show their faces on camera 
+            without endangering loved ones still inside the regime. Animation solves this. It also 
+            costs less, moves faster from concept to screen, and speaks across every language and culture. 
+            Most importantly, it leads with what matters most: stories of love, family, perseverance, 
+            hope, and the extraordinary courage of ordinary people.
           </p>
           <div className="hero-actions">
             <a href="#film" className="btn-primary" onClick={(e) => scrollTo(e, '#film')}>
@@ -118,7 +126,7 @@ function App() {
               </svg>
             </div>
             <div className="award-text">
-              <strong>2024 International Creative Competition Winner — Film Category</strong><br />
+              <strong>2024 Marcom Creative Awards Winner — Platinum — Film Category</strong><br />
               <em>Freedom's Last Embrace: A North Korean Accordion Boy</em>
             </div>
           </div>
@@ -175,7 +183,7 @@ function App() {
         <div className="film-showcase-header">
           <div className="section-label">Award-Winning Debut</div>
           <h2>Freedom's Last Embrace:<br />A North Korean Accordion Boy</h2>
-          <p>Our inaugural film, winner of the 2024 International Creative Competition (Film Category),
+          <p>Our inaugural film, winner of the 2024 Marcom Creative Awards (Platinum — Film Category),
           follows a young boy and his family through escape, trafficking, detention, and the long passage toward asylum.</p>
         </div>
 
@@ -208,8 +216,12 @@ function App() {
           </div>
           <div className="film-credits">
             <div className="credit-block">
-              <div className="credit-label">Project Visionary &amp; Executive Producer</div>
-              <div className="credit-name"><strong>Prof. Leland Yi</strong></div>
+              <div className="credit-label">Founder, Project Visionary, &amp; Executive Producer</div>
+              <div className="credit-name"><strong>Leland Yi</strong></div>
+            </div>
+            <div className="credit-block">
+              <div className="credit-label">Animation Film Director</div>
+              <div className="credit-name"><strong>Sungguk Choi</strong></div>
             </div>
             <div className="credit-block">
               <div className="credit-label">Film Editing — Post Production</div>
@@ -225,7 +237,7 @@ function App() {
             </div>
             <div className="credit-block">
               <div className="credit-label">Recognition</div>
-              <div className="credit-name gold">2024 International Creative Competition — Film Category Winner</div>
+              <div className="credit-name gold">2024 Marcom Creative Awards — Platinum — Film Category</div>
             </div>
           </div>
         </div>

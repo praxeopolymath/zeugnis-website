@@ -55,11 +55,12 @@ nav.scrolled { height: 60px; background: rgba(255, 255, 255, 0.98); box-shadow: 
 
 /* ═══ HERO ═══ */
 .hero {
-  position: relative; min-height: 100vh; display: flex; align-items: center;
+  position: relative; min-height: 100vh; overflow: hidden; display: flex; align-items: center;
   padding: 140px 5vw 80px; overflow: hidden;
 }
 .hero::before {
-  content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  content: ''; position: absolute; top: 0; left: 50%; right: 0; bottom: 0;
+  width: 100vw; margin-left: -50vw;
   background:
     radial-gradient(ellipse at 20% 80%, rgba(207, 144, 82, 0.04) 0%, transparent 60%),
     linear-gradient(180deg, #f5f3ee 0%, #f0ece3 18%, #ddd8ce 25%, var(--navy) 35%, var(--navy-deep) 100%);
@@ -454,6 +455,7 @@ footer {
   margin-bottom: 2.5rem;
   font-style: italic;
   font-family: 'Libre Baskerville', serif;
+  text-align: left;
 }
 
 .nav-logo-img {
