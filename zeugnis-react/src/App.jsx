@@ -94,7 +94,7 @@ function App() {
         <div className="hero-content">
           <img src={heroLogo} alt="Zeugnis38Films" className="hero-logo-img" />
           <div className="hero-pronunciation">[tsoyg-nis] — testimony, witness</div>
-          <h1>Where there is<br />courage, there is <em>a story</em></h1>
+          <h1>Where there is courage,<br />there is <em>a story</em></h1>
           <p className="hero-sub">
             Our name comes from the <em>Gesellschaft für Menschenrechte</em> (GfM), 
             the West German human rights organization that spent decades meticulously documenting 
@@ -153,7 +153,8 @@ function App() {
           <div className="mission-text">
             <p>
               A boy plays accordion in a schoolroom, dreaming of the day his music will make
-              someone smile. A mother wraps her arms around her child as snow falls outside
+              his parents proud. He just awoke from a dream. He is attempting to escape from 
+              North Korea, and his mother wraps her arms around her son as snow falls outside 
               an unfamiliar window. A family walks for days toward a border they have never
               seen, carrying nothing but each other. These are stories about love, about hope
               held tightly in impossible circumstances, about the bonds that hold families
@@ -197,6 +198,9 @@ function App() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="film-copyright">
+          © 2020–2026 Leland Yi. All Rights Reserved.
         </div>
 
         <div className="film-info-grid">
@@ -301,7 +305,7 @@ function App() {
         <div className="pillars-grid two-col">
           {[
             { num: '01', title: 'The Crossing', text: 'A series of short films documenting the trafficking networks that move North Korean women through China — told through the voices of survivors who made it to safety and those still searching for family members left behind.', tags: ['Koreans from the North', 'In Development'] },
-            { num: '02', title: 'Letters from Mariupol', text: 'Animated testimonies from Ukrainian civilians displaced by the siege of Mariupol — capturing the bombardment, the shelters, the evacuations, and the long displacement that followed, drawn from interviews conducted in Poland and Germany.', tags: ['Ukraine', 'Pre-Production'] },
+            { num: '02', title: 'Letters from Mariupol', text: 'Animated testimonies from Ukrainian civilians displaced by the siege of Mariupol — capturing the bombardment, the shelters, the evacuations, and the long displacement that followed.', tags: ['Ukraine', 'Research Phase'] },
             { num: '03', title: 'The Political Camps', text: "First-person accounts from survivors of North Korea's political prison camps — forced labor, starvation, public executions, and the systematic erasure of families deemed politically disloyal. Animation as the only medium that can render what no camera entered.", tags: ['Koreans from the North', 'Research Phase'] },
             { num: '04', title: 'Children of the Route', text: 'Stories from unaccompanied minors who crossed through Iran, Turkey, and the Balkans — the smugglers, the camps, the kindness of strangers, and the bureaucratic limbo of asylum systems that leaves children stateless for years.', tags: ['Middle East', 'Concept Phase'] },
           ].map((project, i) => (
@@ -316,20 +320,80 @@ function App() {
           ))}
           <div className="pillar-card fade-up full-width">
             <div className="pillar-number">05</div>
-            <h3>Voices from the Safehouse</h3>
+            <h3>Voices from a South Korean Safehouse</h3>
             <p>
-              A new animation series led by filmmaker Joshua Kim, produced in partnership with
+              A new animation series led by storyteller and filmmaker, Joshua Kim, produced in partnership with
               <strong> Amigo Safehouse</strong>, documenting the journeys of North Korean escapees
               who found refuge and rebuilt their lives. These are stories of arrival —
-              the first warm meal, the first safe night, the moment a stranger becomes family.
+              the first warm meal, the first safe night, the moment a stranger becomes a friend.
               Each film pairs intimate personal testimony with the safehouse workers who
               opened their doors when no one else would.
             </p>
             <div className="pillar-tags">
               <span className="pillar-tag">Koreans from the North</span>
-              <span className="pillar-tag">Joshua Kim, Director</span>
+              <span className="pillar-tag">Joshua Kim, Creative Director</span>
               <span className="pillar-tag">Amigo Safehouse Partnership</span>
               <span className="pillar-tag">In Development</span>
+            </div>
+
+            {/* Founders Program Sub-section */}
+            <div className="founders-program">
+              <div className="founders-divider"></div>
+              <h4>Praxeo Polymath Founder's Program</h4>
+              <p>
+                Joshua Kim is the inaugural fellow of the <strong>Praxeo Polymath Founder's Program</strong> — 
+                an exclusive post-graduate venture creation initiative that identifies exceptional young 
+                leaders and provides them with funding, world-class mentorship, and institutional 
+                partnership to launch original creative works of lasting significance. Each fellow 
+                is paired with Prof. Leland Yi and a curated network of experts in storytelling, 
+                production, intellectual property, and venture strategy. The program is designed 
+                to transform a bold idea into a fully realized venture — with the fellow as 
+                primary founder and creative force.
+              </p>
+              <p>
+                Zeugnis38Films invited Joshua Kim into this program to tell, through animation, the 
+                stories of North Korean escapees that he and his mother — who runs the Amigo 
+                ministry and safehouse for North Korean women — have direct and intimate knowledge of. 
+                Zeugnis38Films provides the funding, mentorship, and production infrastructure; 
+                Joshua brings the stories, the relationships, and the vision. Together, they are 
+                building something that neither could achieve alone: animated testimony at the 
+                intersection of art, justice, and the indomitable human spirit.
+              </p>
+            </div>
+
+            {/* Young-a Story Sub-section */}
+            <div className="story-preview">
+              <div className="founders-divider"></div>
+              <h4>In Development: The Story of Young-a</h4>
+              <p className="story-label">Based on direct interviews by Joshua Kim</p>
+              <p>
+                Young-a was born in North Korea, where her parents made a living through fishing. 
+                Married young with a son, she crossed into China alone to escape poverty — and 
+                entered a world no one can prepare for. With no money and no legal status, she 
+                was forced into marriage with a Chinese man. She was caught and repatriated to 
+                North Korea more than five times. Each time, she escaped again.
+              </p>
+              <p>
+                For seventeen years she lived in the shadows of northeastern China, witnessing 
+                the trafficking of North Korean women and girls, sheltering young defectors when 
+                she could — a fifteen-year-old girl covered in lice who appeared at her door 
+                begging for food — and turning others away when helping meant her own deportation. 
+                She watched girls married off to elderly men in nearby villages, not out of love 
+                but out of the raw mathematics of survival.
+              </p>
+              <p>
+                Seven years ago, Young-a finally reached South Korea with her daughter. But freedom 
+                brought its own weight — discrimination, cultural displacement, a marriage under 
+                strain, a desperation so deep she nearly ended her own life. Today she works as 
+                a caregiver by the sea, supporting her husband's fishing work, rebuilding day by day. 
+                Her story is not just hers. It is the story of countless North Korean women 
+                who have crossed borders, endured trafficking, survived repatriation, and still — 
+                against everything — chosen to live.
+              </p>
+              <p className="story-note">
+                <em>Young-a is a pseudonym used to protect her identity. This is one of many stories 
+                that will be told through animation in collaboration with Zeugnis38Films.</em>
+              </p>
             </div>
           </div>
         </div>

@@ -98,17 +98,17 @@ nav.scrolled { height: 60px; background: rgba(255, 255, 255, 0.98); box-shadow: 
   margin-bottom: 1.5rem; padding: 6px 0; border-bottom: 2px solid var(--orange);
 }
 .hero h1 {
-  font-family: 'DM Serif Display', serif; font-size: clamp(3rem, 6.5vw, 5.5rem);
-  color: var(--white); line-height: 1.05; margin-bottom: 1rem;
-  text-align: left;
+  font-family: 'DM Serif Display', serif; font-size: clamp(2.8rem, 5.5vw, 4.8rem);
+  color: var(--white); line-height: 1.1; margin-bottom: 1.5rem;
+  text-align: center;
 }
 .hero h1 em { color: var(--orange); font-style: italic; }
 .hero-sub {
   font-family: 'Libre Baskerville', serif; font-size: clamp(1.05rem, 1.8vw, 1.35rem);
   line-height: 1.75; color: var(--text-on-dark); max-width: 680px; margin-bottom: 1.5rem;
-  text-align: left;
+  text-align: left; margin-left: auto; margin-right: auto;
 }
-.hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+.hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
 .btn-primary {
   display: inline-flex; align-items: center; gap: 8px; padding: 14px 32px;
   background: var(--orange); color: var(--white);
@@ -128,7 +128,7 @@ nav.scrolled { height: 60px; background: rgba(255, 255, 255, 0.98); box-shadow: 
 .hero-award {
   margin-top: 3.5rem; padding-top: 2rem;
   border-top: 1px solid rgba(255,255,255,0.08);
-  display: flex; align-items: center; gap: 1.2rem;
+  display: flex; align-items: center; gap: 1.2rem; justify-content: center;
 }
 .award-icon {
   width: 52px; height: 52px; border: 2px solid var(--gold); border-radius: 50%;
@@ -464,6 +464,8 @@ footer {
   width: auto;
   margin-bottom: 0.5rem;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-pronunciation {
   font-size: 0.75rem;
@@ -472,7 +474,7 @@ footer {
   margin-bottom: 2.5rem;
   font-style: italic;
   font-family: 'Libre Baskerville', serif;
-  text-align: left;
+  text-align: center;
 }
 .nav-logo-img {
   height: 36px;
@@ -490,3 +492,64 @@ footer {
 .projects-section { background: var(--navy) !important; }
 .projects-section .pillar-card { background: var(--navy-deep); }
 .projects-section .pillar-number { color: rgba(207, 144, 82, 0.2); }
+
+/* ═══ FILM COPYRIGHT ═══ */
+.film-copyright {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--gray-mid);
+  margin-top: 1.5rem;
+  letter-spacing: 0.03em;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ═══ FOUNDERS PROGRAM & STORY PREVIEW ═══ */
+.founders-program,
+.story-preview {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.founders-divider {
+  width: 60px;
+  height: 2px;
+  background: var(--orange);
+  margin: 2.5rem 0 2rem;
+  opacity: 0.5;
+}
+
+.founders-program h4,
+.story-preview h4 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.25rem;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+
+.founders-program p,
+.story-preview p {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 0.92rem;
+  line-height: 1.8;
+  color: var(--text-on-dark);
+  margin-bottom: 1rem;
+}
+
+.story-label {
+  font-size: 0.78rem !important;
+  font-family: 'Source Sans 3', sans-serif !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--orange) !important;
+  margin-bottom: 1.2rem !important;
+}
+
+.story-note {
+  font-size: 0.82rem !important;
+  color: var(--gray-mid) !important;
+  border-left: 2px solid rgba(207, 144, 82, 0.3);
+  padding-left: 1rem;
+  margin-top: 1.5rem !important;
+}
