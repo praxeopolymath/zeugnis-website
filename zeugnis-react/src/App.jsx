@@ -412,6 +412,7 @@ function App() {
             { name: 'Middle East & Central Asia', focus: 'Expanding Coverage', text: 'Teachers who kept schools open in basements, fathers who carried libraries across borders, women who built new lives in foreign cities — the ingenuity, faith, and quiet heroism of people who refuse to let war define them.' },
             { name: 'The Americas', focus: 'In Development', text: "Migrants who crossed continents carrying their children's drawings, families who found community in unfamiliar cities, and the bonds forged between strangers on journeys no one should have to make alone." },
             { name: 'Asia Pacific', focus: 'In Development', text: 'Fishermen who became rescuers, communities that sheltered strangers, and the stories of people who crossed seas and mountains seeking safety — carrying with them the traditions, songs, and hopes of home.' },
+            { name: 'Oceania', focus: 'In Development', text: 'Pacific communities forced to abandon sinking homelands, Indigenous children behind bars in Australia, asylum seekers left in limbo on offshore islands, and land defenders silenced in Papua — stories of displacement, endurance, and people who refuse to be erased.' },
           ].map((region, i) => (
             <div className="region-card fade-up" key={i}>
               <div className="region-name">{region.name}</div>
